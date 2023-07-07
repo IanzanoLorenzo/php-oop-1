@@ -1,3 +1,4 @@
+<!-- MECCANISMO CHE CREA LE CARTE DEI FILM -->
 <?php foreach($movies as $movie){ ?>
     <div class="col-3">
         <div class="card">

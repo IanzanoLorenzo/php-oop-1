@@ -1,4 +1,5 @@
 <?php
+    //IMPORTO IL DATABASE
     include (__DIR__.'/db.php');
 ?>
 
@@ -15,6 +16,7 @@
     <h1 class="text-center my-5">MOVIES</h1>
     <div class="container">
         <div class="row">
+            <!-- IMPORTO LE CARTE -->
             <?php require __DIR__.'/models/cards.php' ?>
         </div>
     </div>

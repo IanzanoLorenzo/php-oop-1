@@ -1,5 +1,5 @@
 <?php
-
+    //INSERITI I FILM IN UN ARRAY
     require __DIR__.'/classes/classMovie.php';
 
     $PulpFiction = new Movie('Pulp Fiction', ['gangster', 'commedia', 'drammatico', 'thriller', 'noir'], '2h 45m', 1994, 9);
